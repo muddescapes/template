@@ -1,1 +1,0 @@
-void setup_wifi(const char *ssid, const char *pw);
