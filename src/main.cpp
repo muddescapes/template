@@ -54,10 +54,10 @@ void loop() {
   }
 
   if (solved_puzzle) {
-    digitalWrite(led_output_pin, LOW);
+    digitalWrite(led_output_pin, HIGH);
   }
   else {
-    digitalWrite(led_output_pin, HIGH);
+    digitalWrite(led_output_pin, LOW);
   }
 
   me.update();
